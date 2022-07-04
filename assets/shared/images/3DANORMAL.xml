@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="3DANORMAL.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0001" x="578" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0002" x="578" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0003" x="1156" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0004" x="1734" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0005" x="1734" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0006" x="1734" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0007" x="2312" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0008" x="2890" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0009" x="3468" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0010" x="3468" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0011" x="3468" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0012" x="3468" y="0" width="578" height="747"/>
+	<SubTexture name="Idle0013" x="3468" y="0" width="578" height="747"/>
+</TextureAtlas>
