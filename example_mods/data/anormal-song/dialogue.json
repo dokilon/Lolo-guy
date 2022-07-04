@@ -1,0 +1,88 @@
+{
+	"dialogue": [
+		{
+			"expression": "parao",
+			"text": "oh man, my uncle norman is so- uh?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"expression": "talking",
+			"text": "oh shit, is the parappa the rapper and him girlfriend the",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"expression": "parao",
+			"text": "chica amiga ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"expression": "talk",
+			"text": "beep",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "right",
+			"text": "yes, generic rapper. it's me, the aclammaded bob whit purple clothes.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"expression": "talk",
+			"text": "skiri bep, bap bop",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "ah- no te interesa.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "lologuy",
+			"boxState": "normal",
+			"expression": "talking",
+			"text": "anyways, i don't have time. sorry, this dimension is so wored and i planed get out here for 3 years"
+		},
+		{
+			"expression": "pissed",
+			"text": "el pepe ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "meh. okay, im rapping",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lologuy"
+		},
+		{
+			"expression": "parao",
+			"text": "but remember",
+			"boxState": "normal",
+			"portrait": "lologuy",
+			"speed": 0.05
+		},
+		{
+			"expression": "aplastao",
+			"text": "im so insane.",
+			"boxState": "normal",
+			"portrait": "lologuy",
+			"speed": 0.05
+		}
+	]
+}

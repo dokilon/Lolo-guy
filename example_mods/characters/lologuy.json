@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-153,
+				411
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-136,
+				430
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-4,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				520
+			],
+			"anim": "unknow",
+			"fps": 24,
+			"name": "unknow",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-152,
+				420
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-146,
+				420
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				286,
+				430
+			],
+			"anim": "negro",
+			"fps": 24,
+			"name": "lolo negro",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/LoloGuy",
+	"position": [
+		-10,
+		1000
+	],
+	"healthicon": "lolo",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		220,
+		-320
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

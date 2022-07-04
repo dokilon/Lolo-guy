@@ -1,0 +1,11 @@
+{
+	"idle_anim": "bfanormal",
+	"confirm_anim": "M Dad Idle",
+	"position": [
+		228,
+		322
+	],
+	"scale": 0.33,
+	"flipX": false,
+	"image": "bfanormal"
+}

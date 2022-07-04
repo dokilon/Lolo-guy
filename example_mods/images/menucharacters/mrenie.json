@@ -1,0 +1,10 @@
+{
+	"idle_anim": "menucharacter",
+	"confirm_anim": "M Dad Idle",
+	"position": [
+		-160,
+		240
+	],
+	"scale": 0.55,
+	"image": "mrenie"
+}
