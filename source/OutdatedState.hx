@@ -25,7 +25,7 @@ class OutdatedState extends MusicBeatState
 
 		warnText = new FlxText(0, 0, FlxG.width,
 			"Sup bro, looks like you're running an   \n
-			outdated version of lolo (" + MainMenuState.psychEngineVersion + "),\n
+			outdated version of lolo (" + MainMenuState.loloversion + "),\n
 			please update to " + TitleState.updateVersion + "!\n
 			Press ESCAPE to proceed anyway.\n
 			\n
