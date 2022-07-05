@@ -1,0 +1,31 @@
+{
+	"storyName": "nothing love's emily!",
+	"difficulties": "",
+	"hideFreeplay": true,
+	"weekBackground": "tv",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "TV",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"mrenie",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"the enie",
+			"srenie",
+			[
+				215,
+				140,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "TV Week"
+}

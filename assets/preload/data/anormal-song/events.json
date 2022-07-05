@@ -1,0 +1,229 @@
+{
+	"song": {
+		"speed": 4,
+		"stage": "LoloIsGay",
+		"player1": "bflolo",
+		"player2": "lologuy",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Add Camera Zoom",
+						"0. 11",
+						"0. 2"
+					]
+				]
+			],
+			[
+				700,
+				[
+					[
+						"Add Camera Zoom",
+						"0.11",
+						"0.2"
+					]
+				]
+			],
+			[
+				1500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.11",
+						"0.2"
+					]
+				]
+			],
+			[
+				2300,
+				[
+					[
+						"Add Camera Zoom",
+						"0.11",
+						"0.2"
+					]
+				]
+			],
+			[
+				3100,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				4000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.11",
+						"0.2"
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"Add Camera Zoom",
+						"0.11",
+						"0.2"
+					]
+				]
+			],
+			[
+				5500,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Change Character",
+						"bflolo",
+						"dadplay"
+					]
+				]
+			],
+			[
+				25600,
+				[
+					[
+						"Change Character",
+						"dadplay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				30400,
+				[
+					[
+						"Change Character",
+						"bflolo",
+						"splay"
+					]
+				]
+			],
+			[
+				31900,
+				[
+					[
+						"Change Character",
+						"splay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Play Animation",
+						"negro",
+						"lologuy"
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"Screen Shake",
+						"1, 0.3",
+						"0.03"
+					],
+					[
+						"Change Character",
+						"bflolo",
+						"splay"
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				54400,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					],
+					[
+						"Change Character",
+						"splay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				59200,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				60800,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "GfLoloGuy",
+		"bpm": 150,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "anormal song"
+	}
+}

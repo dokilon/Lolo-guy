@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "kellyle dises a d ani qe me desbloquee\"/?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "mrenie"
+		},
+		{
+			"expression": "confused",
+			"text": "bep?...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "guey peroque tonto es el qesos",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "mrenie"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "cool, rap?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "mrenie",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "rapthis bro"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "mrenie",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you can call me mr.seps"
+		}
+	]
+}

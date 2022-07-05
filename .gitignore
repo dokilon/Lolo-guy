@@ -9,6 +9,7 @@ art/build_x32-of.bat
 
 ### VS Code
 export/*
+builds/*
 .vscode/*
 *.code-workspace
 # Local history which shouldn't be shared.
