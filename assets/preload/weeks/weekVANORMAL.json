@@ -3,14 +3,18 @@
 	"difficulties": "Normal",
 	"hideFreeplay": true,
 	"weekBackground": "anormal",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"mranormalguy",
+		"bfanormal",
+		""
+	],
 	"songs": [
 		[
 			"the screamer",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"mranormalguy",
-		"bfanormal",
-		""
-	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }
