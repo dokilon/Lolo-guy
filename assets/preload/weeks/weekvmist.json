@@ -1,16 +1,20 @@
 {
-	"storyName": "week a",
+	"storyName": "ban",
 	"difficulties": "normal",
 	"hideFreeplay": true,
 	"weekBackground": "lolardo",
-	"weekBefore": "weekTV",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "weekTV",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"lets ban mist",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "ban"
+	"hideStoryMode": false,
+	"weekName": "week vmist",
+	"hiddenUntilUnlocked": true
 }
