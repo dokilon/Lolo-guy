@@ -87,6 +87,7 @@ class CreditsState extends MusicBeatState
 			['Jeriz',               'bolas',            'Charter',                                                      'https://twitter.com/jeriz1991',        'f7e9e9'],
 			['Gixxie',              'dou',              'Icons Artist',                                                 'https://twitter.com/TheDrea93936186',  'f7e9e9'],
 			['doki',                'xd',               'Programmer',                                                   'https://twitter.com/dokislon',         '0066ff'],
+			['ImNotAPepsi',         'test',             'beta tester',                                                  'https://twitter.com/ImNotAPepsi',      'ff0000'],
 
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],

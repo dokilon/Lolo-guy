@@ -5044,7 +5044,7 @@ class PlayState extends MusicBeatState
 							var weekName:String = WeekData.getWeekFileName();
 							switch(weekName) //I know this is a lot of duplicated code, but it's easier readable and you can add weeks with different names than the achievement tag
 							{
-								case 'weekLOLO':
+								case 'lolo-week':
 									if(achievementName == 'weekl_nomiss') unlock = true;
 								case 'week2':
 									if(achievementName == 'week2_nomiss') unlock = true;
