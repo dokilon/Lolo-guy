@@ -3,18 +3,14 @@
 	"difficulties": "",
 	"hideFreeplay": true,
 	"weekBackground": "tv",
+	"weekBefore": "WeekLOLO",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "TV",
-	"startUnlocked": true,
-	"weekCharacters": [
-		"mrenie",
-		"",
-		""
-	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"the enie",
@@ -26,6 +22,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"mrenie",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
 	"weekName": "TV Week"
 }
