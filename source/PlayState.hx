@@ -506,8 +506,8 @@ class PlayState extends MusicBeatState
 				var bg:BGSprite = new BGSprite('bobback', -360, -250 , 0.20, 0.20);
 				add(bg);
 
-				var stageFront:BGSprite = new BGSprite('bobfront', -0, -360, 0.8, 0.8);
-				stageFront.setGraphicSize(Std.int(stageFront.width * 1));
+				var stageFront:BGSprite = new BGSprite('bobfront', -250, 800, 0.8, 0.8);
+				stageFront.setGraphicSize(Std.int(stageFront.width * 0.8));
 				stageFront.updateHitbox();
 				add(stageFront);
 
