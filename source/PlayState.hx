@@ -501,6 +501,17 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 				dadbattleSmokes = new FlxSpriteGroup(); //troll'd
+			
+			case 'LoloIsGay': //Week lolo
+				var bg:BGSprite = new BGSprite('bobback', -360, -250, 0.20, 0.20);
+				add(bg);
+
+				var stageFront:BGSprite = new BGSprite('bobfront', -0, -800, 0.6, 0.6);
+				stageFront.setGraphicSize(Std.int(stageFront.width * 1));
+				stageFront.updateHitbox();
+				add(stageFront);
+
+				
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
