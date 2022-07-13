@@ -25,3 +25,16 @@ gf-tankmen
 bf-holding-gf
 pico-player
 tankman-player
+anormal
+bflolo
+dadlolo
+dadplay
+gfenie
+GfLoloGuy
+lologuy
+lolowhen
+lolowhenplayable
+mr enie
+s
+splay
+unknow

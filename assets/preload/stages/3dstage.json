@@ -1,0 +1,9 @@
+{
+	"directory": "weeklolo",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+	"boyfriend": [1130, 156],
+	"girlfriend": [400, 100],
+	"opponent": [150, 180]
+}

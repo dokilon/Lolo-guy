@@ -1,0 +1,81 @@
+{
+
+	"songs": [
+
+		[
+
+			"the enie",
+
+			"mr-enie",
+
+			[
+
+				255,
+
+				133,
+
+				15
+
+			]
+
+		],
+
+		[
+
+			"My reaction",
+
+			"mr-enie",
+
+			[
+
+				255,
+
+				133,
+
+				15
+
+			]
+
+		]
+
+	],
+
+	"hiddenUntilUnlocked": false,
+
+	"hideFreeplay": false,
+
+	"weekBackground": "",
+
+	"difficulties": "",
+
+	"weekCharacters": [
+
+		"",
+
+		"",
+
+		""
+
+	],
+
+	"storyName": "6",
+
+	"weekName": "",
+
+	"freeplayColor": [
+
+		146,
+
+		113,
+
+		253
+
+	],
+
+	"hideStoryMode": true,
+
+	"weekBefore": "5weektv",
+
+	"startUnlocked": false
+
+}

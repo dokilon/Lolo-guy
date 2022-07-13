@@ -55,6 +55,8 @@ class StageData {
 					stage = 'tank';
 				default:
 					stage = 'stage';
+				case 'anormal-song' | 'i-am-a-head' :
+					stage = 'LoloIsGay';
 			}
 		} else {
 			stage = 'stage';

@@ -3,8 +3,8 @@
 	"titley":-100,
 	"startx":100,
 	"starty":576,
-	"gfx":700,
-	"gfy":0,
+	"gfx":500,
+	"gfy":-200,
 	"backgroundSprite":"",
 	"bpm":102
 }

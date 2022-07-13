@@ -1,87 +1,22 @@
 {
 	"song": {
-		"speed": 4,
-		"stage": "LoloIsGay",
-		"player1": "bflolo",
-		"player2": "lologuy",
-		"player3": null,
 		"events": [
 			[
 				0,
 				[
 					[
-						"Add Camera Zoom",
-						"0. 11",
-						"0. 2"
+						"Set Cam Zoom",
+						"2",
+						"6"
 					]
 				]
 			],
 			[
-				700,
+				6200,
 				[
 					[
-						"Add Camera Zoom",
-						"0.11",
-						"0.2"
-					]
-				]
-			],
-			[
-				1500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.11",
-						"0.2"
-					]
-				]
-			],
-			[
-				2300,
-				[
-					[
-						"Add Camera Zoom",
-						"0.11",
-						"0.2"
-					]
-				]
-			],
-			[
-				3100,
-				[
-					[
-						"",
-						"",
-						""
-					]
-				]
-			],
-			[
-				4000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.11",
-						"0.2"
-					]
-				]
-			],
-			[
-				4800,
-				[
-					[
-						"Add Camera Zoom",
-						"0.11",
-						"0.2"
-					]
-				]
-			],
-			[
-				5500,
-				[
-					[
-						"",
-						"",
+						"Set Cam Zoom",
+						"0.6",
 						""
 					]
 				]
@@ -216,14 +151,6 @@
 					]
 				]
 			]
-		],
-		"notes": [],
-		"splashSkin": null,
-		"validScore": false,
-		"gfVersion": "GfLoloGuy",
-		"bpm": 150,
-		"arrowSkin": null,
-		"needsVoices": true,
-		"song": "anormal song"
+		]
 	}
 }

@@ -208,6 +208,10 @@ class PlayState extends MusicBeatState
 	var dadbattleLight:BGSprite;
 	var dadbattleSmokes:FlxSpriteGroup;
 
+	var     lolob:   BGSprite;
+	var     lolof:   BGSprite;
+	var     loloft:  BGSprite;
+	
 	var halloweenBG:BGSprite;
 	var halloweenWhite:BGSprite;
 
@@ -242,6 +246,7 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
+ 	
 	var tankWatchtower:BGSprite;
 	var tankGround:BGSprite;
 	var tankmanRun:FlxTypedGroup<TankmenBG>;
@@ -423,6 +428,8 @@ class PlayState extends MusicBeatState
 					curStage = 'tank';
 				default:
 					curStage = 'stage';
+				case 'anormal-song' | 'i-am-a-head' :
+					curStage = 'LoloIsGay';
 			}
 		}
 		SONG.stage = curStage;
@@ -496,23 +503,12 @@ class PlayState extends MusicBeatState
 					add(stageLight);
 
 					var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
-					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 1));
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
 				dadbattleSmokes = new FlxSpriteGroup(); //troll'd
-			
-			case 'LoloIsGay': //Week lolo
-				var bg:BGSprite = new BGSprite('bobback', -360, -250 , 0.20, 0.20);
-				add(bg);
-
-				var stageFront:BGSprite = new BGSprite('bobfront', -250, 800, 0.8, 0.8);
-				stageFront.setGraphicSize(Std.int(stageFront.width * 0.8));
-				stageFront.updateHitbox();
-				add(stageFront);
-
 				
-
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
@@ -751,7 +747,19 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			
+			case 'LoloIsGay': //Week Lolo
+		        var lolob:BGSprite = new BGSprite('bobback', -660, -150 , 0.20, 0.20); // 0.20 0.20
+		        lolob.setGraphicSize(Std.int(lolob.width * 1));
+		        lolob.updateHitbox();
+		        add(lolob);
+				
 
+		        var loloft:BGSprite = new BGSprite('bobfront', -0, 800); // 0.6 0.6
+		        loloft.setGraphicSize(Std.int(loloft.width * 1));
+		        loloft.updateHitbox();
+		        add(loloft);
+				
 			case 'tank': //Week 7 - Ugh, Guns, Stress
 				var sky:BGSprite = new BGSprite('tankSky', -400, -400, 0, 0);
 				add(sky);
@@ -810,6 +818,11 @@ class PlayState extends MusicBeatState
 				foregroundSprites.add(new BGSprite('tank5', 1620, 700, 1.5, 1.5, ['fg']));
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank3', 1300, 1200, 3.5, 2.5, ['fg']));
 		}
+
+
+
+
+
 
 		switch(Paths.formatToSongPath(SONG.song))
 		{
@@ -899,6 +912,8 @@ class PlayState extends MusicBeatState
 			switch (curStage)
 			{
 				case 'limo':
+					gfVersion = 'gf-car';
+				case 'anormal-song' | 'i-am-a-head':
 					gfVersion = 'gf-car';
 				case 'mall' | 'mallEvil':
 					gfVersion = 'gf-christmas';
@@ -2224,16 +2239,18 @@ class PlayState extends MusicBeatState
 	var lastReportedPlayheadPosition:Int = 0;
 	var songTime:Float = 0;
 
+
 	function startSong():Void
 	{
 		startingSong = false;
-
+		
 		previousFrameTime = FlxG.game.ticks;
 		lastReportedPlayheadPosition = 0;
 
 		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
 		FlxG.sound.music.onComplete = onSongComplete;
 		vocals.play();
+
 
 		if(startOnTime > 0)
 		{
@@ -5055,7 +5072,7 @@ class PlayState extends MusicBeatState
 							var weekName:String = WeekData.getWeekFileName();
 							switch(weekName) //I know this is a lot of duplicated code, but it's easier readable and you can add weeks with different names than the achievement tag
 							{
-								case 'lolo-week':
+								case '2weekLOLO':
 									if(achievementName == 'weekl_nomiss') unlock = true;
 								case 'week2':
 									if(achievementName == 'week2_nomiss') unlock = true;

@@ -7,10 +7,16 @@ art/test_x64-debug-officialrelease.bat
 art/build_x64-of.bat
 art/build_x32-of.bat
 art/build_x64-test.bat
+future/*
+future
+art/RPC icons/*
+art/RPC icons
 
 ### VS Code
 export/*
+export
 builds/*
+builds
 .vscode/*
 *.code-workspace
 # Local history which shouldn't be shared.

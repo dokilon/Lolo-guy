@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lolo.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lolomenu0000" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0001" x="671" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0002" x="1342" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0003" x="2013" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0004" x="2684" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0005" x="3355" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0006" x="0" y="739" width="671" height="739"/>
+	<SubTexture name="lolomenu0007" x="671" y="739" width="671" height="739"/>
+	<SubTexture name="lolomenu0008" x="1342" y="739" width="671" height="739"/>
+	<SubTexture name="lolomenu0009" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0010" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0011" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0012" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0013" x="0" y="0" width="671" height="739"/>
+	<SubTexture name="lolomenu0014" x="0" y="0" width="671" height="739"/>
+</TextureAtlas>

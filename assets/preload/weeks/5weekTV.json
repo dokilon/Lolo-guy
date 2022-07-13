@@ -1,0 +1,80 @@
+{
+	"storyName": "nothing love's emily!",
+	
+	"difficulties": "",
+	
+	"hideFreeplay": true,
+	
+	"weekBackground": "tv",
+	
+	"weekBefore": "2weekLOLO",
+	
+	"freeplayColor": [
+	
+		146,
+	
+		113,
+	
+		253
+	
+	],
+	
+	"startUnlocked": false,
+	
+	"hideStoryMode": false,
+	
+	"songs": [
+	
+		[
+	
+			"the enie",
+	
+			"mr-enie",
+	
+			[
+	
+				255,
+	
+				133,
+	
+				15
+	
+			]
+	
+		],
+	
+		[
+	
+			"My reaction",
+	
+			"mr-enie",
+	
+			[
+	
+				255,
+	
+				133,
+	
+				15
+	
+			]
+	
+		]
+	
+	],
+	
+	"weekCharacters": [
+	
+		"mrenie",
+	
+		"",
+	
+		""
+	
+	],
+	
+	"hiddenUntilUnlocked": true,
+	
+	"weekName": "TV Week"
+
+}
