@@ -1,15 +1,15 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-170,
-				420
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-167,
+				419
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "GF Dancing Beat"
+			"fps": 24,
+			"name": "GF Dancing Beat",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -23,7 +23,7 @@
 	"healthbar_colors": [
 		175,
 		102,
-		206
+		226
 	],
 	"camera_position": [
 		220,

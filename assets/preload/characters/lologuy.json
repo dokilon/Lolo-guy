@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				-153,
+				-148,
 				411
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Idle"
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-136,
 				430
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Up"
+			"fps": 24,
+			"name": "Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-4,
 				47
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
+			"fps": 24,
+			"name": "Down",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-160,
 				520
 			],
-			"anim": "unknow",
+			"loop": false,
 			"fps": 24,
-			"name": "unknow",
-			"indices": []
+			"anim": "unknow",
+			"indices": [],
+			"name": "unknow"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-152,
 				420
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-146,
 				420
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				286,
 				430
 			],
-			"anim": "negro",
+			"loop": false,
 			"fps": 24,
-			"name": "lolo negro",
-			"indices": []
+			"anim": "negro",
+			"indices": [],
+			"name": "lolo negro"
 		}
 	],
 	"no_antialiasing": false,
@@ -92,8 +92,8 @@
 		255
 	],
 	"camera_position": [
-		220,
-		-320
+		10,
+		-190
 	],
 	"sing_duration": 6.1,
 	"scale": 0.7

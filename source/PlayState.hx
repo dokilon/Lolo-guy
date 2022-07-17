@@ -210,7 +210,8 @@ class PlayState extends MusicBeatState
 
 	var     lolob:   BGSprite;
 	var     lolof:   BGSprite;
-	var     loloft:  BGSprite;
+	var     loloft:  FlxSprite;
+
 	
 	var halloweenBG:BGSprite;
 	var halloweenWhite:BGSprite;
@@ -428,7 +429,7 @@ class PlayState extends MusicBeatState
 					curStage = 'tank';
 				default:
 					curStage = 'stage';
-				case 'anormal-song' | 'i-am-a-head' :
+				case 'anormal-song' | 'i-am-a-head' : //tinghs off lolo
 					curStage = 'LoloIsGay';
 			}
 		}
@@ -749,16 +750,21 @@ class PlayState extends MusicBeatState
 				}
 			
 			case 'LoloIsGay': //Week Lolo
-		        var lolob:BGSprite = new BGSprite('bobback', -660, -150 , 0.20, 0.20); // 0.20 0.20
-		        lolob.setGraphicSize(Std.int(lolob.width * 1));
+		        var lolob:BGSprite = new BGSprite('bobback', -500, -250 ); //x, y
+				lolob.scrollFactor.set(0.20, 0.20);
+				lolob.setGraphicSize(Std.int(lolob.width * 2));
 		        lolob.updateHitbox();
 		        add(lolob);
-				
+								
 
-		        var loloft:BGSprite = new BGSprite('bobfront', -0, 800); // 0.6 0.6
-		        loloft.setGraphicSize(Std.int(loloft.width * 1));
-		        loloft.updateHitbox();
-		        add(loloft);
+		        var loloft:FlxSprite = new FlxSprite( -500, 700); //x, y - left + right y: -up + down
+				loloft.frames = Paths.getSparrowAtlas('bobfront');
+                loloft.animation.addByPrefix('bob', 'bg', 16 ,true);
+				loloft.animation.play('bob');
+		        lolob.setGraphicSize(Std.int(lolob.width * 0.6));
+				lolob.updateHitbox();
+				add(loloft);
+				loloft.antialiasing = false;
 				
 			case 'tank': //Week 7 - Ugh, Guns, Stress
 				var sky:BGSprite = new BGSprite('tankSky', -400, -400, 0, 0);
@@ -1698,6 +1704,12 @@ class PlayState extends MusicBeatState
 		var boyfriendCutscene:FlxSprite = new FlxSprite(boyfriend.x + 5, boyfriend.y + 20);
 		boyfriendCutscene.antialiasing = ClientPrefs.globalAntialiasing;
 		cutsceneHandler.push(boyfriendCutscene);
+
+		switch (curStage) // This for layering lmao
+		{
+			//case 'LoloIsGay':
+			//	add(loloe);
+		}
 
 		cutsceneHandler.finishCallback = function()
 		{
@@ -3806,7 +3818,7 @@ class PlayState extends MusicBeatState
 		} else {
 			var achieve:String = checkForAchievement(['weeklolo_nomiss', //'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				//'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 
-				'ur_bad', 'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
+				'ur_bad', 'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);//lolo nomiss xd
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -5072,7 +5084,7 @@ class PlayState extends MusicBeatState
 							var weekName:String = WeekData.getWeekFileName();
 							switch(weekName) //I know this is a lot of duplicated code, but it's easier readable and you can add weeks with different names than the achievement tag
 							{
-								case '2weekLOLO':
+								case '2weekLOLO'://lolo no miss
 									if(achievementName == 'weekl_nomiss') unlock = true;
 								case 'week2':
 									if(achievementName == 'week2_nomiss') unlock = true;
