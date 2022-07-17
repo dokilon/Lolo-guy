@@ -757,7 +757,7 @@ class PlayState extends MusicBeatState
 		        add(lolob);
 								
 
-		        var loloft:FlxSprite = new FlxSprite( -500, 700); //x, y - left + right y: -up + down
+		        var loloft:FlxSprite = new FlxSprite( -500, 750); //x, y - left + right y: +up -down
 				loloft.frames = Paths.getSparrowAtlas('bobfront');
                 loloft.animation.addByPrefix('bob', 'bg', 16 ,true);
 				loloft.animation.play('bob');
