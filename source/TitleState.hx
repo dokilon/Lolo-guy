@@ -81,6 +81,8 @@ class TitleState extends MusicBeatState
 
 
 	var mustUpdate:Bool = false;
+	
+	var mustBeta:Bool = false;
 
 	var titleJSON:TitleData;
 
@@ -167,7 +169,7 @@ class TitleState extends MusicBeatState
 				trace('version online: ' + isbeta + ', your are on bor: ' + curbor);
 				if(isbeta != curbor) {
 					trace('versions arent matching!');
-					mustUpdate = true;
+					mustBeta = true;
 				}
 			}
 
@@ -532,6 +534,11 @@ class TitleState extends MusicBeatState
 				{
 					if (mustUpdate) {
 						MusicBeatState.switchState(new OutdatedState());
+					} else {
+						MusicBeatState.switchState(new MainMenuState());
+					}
+					if (mustBeta) {
+						MusicBeatState.switchState(new BorState());
 					} else {
 						MusicBeatState.switchState(new MainMenuState());
 					}

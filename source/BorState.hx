@@ -11,7 +11,7 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 
-class OutdatedState extends MusicBeatState
+class BorState extends MusicBeatState
 {
 	public static var leftState:Bool = false;
 

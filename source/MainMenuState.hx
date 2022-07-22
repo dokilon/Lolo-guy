@@ -25,7 +25,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var loloversion:String = '0.3.0.1'; //This is also used for Discord RPC
+	public static var loloversion:String = '0.2'; //This is also used for Discord RPC
 	public static var bor:String = 'beta';
 	public static var curSelected:Int = 0;
 
