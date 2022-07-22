@@ -90,7 +90,6 @@ class CreditsState extends MusicBeatState
 			['ImNotAPepsi',         'test',             'beta tester',                                                  'https://twitter.com/ImNotAPepsi',      'ff0000'],
 			[''],
 			['some things that \ndont belong to me'],
-			['Meme1079',            'NPS',              'owner of the NPS script ',                                     'https://github.com/Meme1079',          '6978ff'],
 			['KadeDev',				'kade',				'circule notes (originals of kade engine)',			'https://twitter.com/kade0912',			'64A250'],
 			['tabi team',           'tabi',             'camera zoom script',                               'https://gamebanana.com/mods/375062', '4f4f4f'],
 			[''],

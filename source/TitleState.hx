@@ -63,7 +63,7 @@ class TitleState extends MusicBeatState
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
-	var ngSpr:FlxSprite;
+	var fnfSpr:FlxSprite;
 	
 	var titleTextColors:Array<FlxColor> = [0xFF33FFFF, 0xFF3333CC];
 	var titleTextAlphas:Array<Float> = [1, .64];
@@ -85,6 +85,7 @@ class TitleState extends MusicBeatState
 	var titleJSON:TitleData;
 
 	public static var updateVersion:String = '';
+	public static var isbeta:String = '';
 
 	override public function create():Void
 	{
@@ -143,6 +144,28 @@ class TitleState extends MusicBeatState
 				var curVersion:String = MainMenuState.loloversion.trim();
 				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
+					trace('versions arent matching!');
+					mustUpdate = true;
+				}
+			}
+
+			http.onError = function (error) {
+				trace('error: $error');
+			}
+
+			http.request();
+		}
+		
+		if(ClientPrefs.checkForBeta && !closedState) {
+			trace('checking if is beta');
+			var http = new haxe.Http("https://raw.githubusercontent.com/dokilon/Lolo-guy/main/gitBeta.txt");
+
+			http.onData = function (data:String)
+			{
+				isbeta = data.split('\n')[0].trim();
+				var curbor:String = MainMenuState.bor.trim();
+				trace('version online: ' + isbeta + ', your are on bor: ' + curbor);
+				if(isbeta != curbor) {
 					trace('versions arent matching!');
 					mustUpdate = true;
 				}
@@ -401,13 +424,13 @@ class TitleState extends MusicBeatState
 
 		credTextShit.visible = false;
 
-		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('the_game'));
-		add(ngSpr);
-		ngSpr.visible = false;
-		ngSpr.setGraphicSize(Std.int(ngSpr.width * 0.8));
-		ngSpr.updateHitbox();
-		ngSpr.screenCenter(X);
-		ngSpr.antialiasing = ClientPrefs.globalAntialiasing;
+		fnfSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('the_game'));
+		add(fnfSpr);
+		fnfSpr.visible = false;
+		fnfSpr.setGraphicSize(Std.int(fnfSpr.width * 0.8));
+		fnfSpr.updateHitbox();
+		fnfSpr.screenCenter(X);
+		fnfSpr.antialiasing = ClientPrefs.globalAntialiasing;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -665,27 +688,23 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 6:
-					#if PSYCH_WATERMARKS
+
 					createCoolText(['a mod for ', 'this game'], -40);
-					#else
-					createCoolText(['In association', 'with'], -40);
-					#end
+
 				case 8:
-					addMoreText('FNF', -40);
-					ngSpr.visible = true;
+					fnfSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
 					deleteCoolText();
-					ngSpr.visible = false;
+				    fnfSpr.visible = false;
 				// credTextShit.visible = false;
 
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 10:
-					createCoolText([curWacky[0]]);
-				// credTextShit.visible = true;
-				case 12:
-					addMoreText(curWacky[1]);
+					createCoolText([curWacky[0], curWacky[1]]);
+				case 11:
+					createCoolText([curWacky[2], curWacky[3],], 140);
 				// credTextShit.text += '\nlmao';
 				case 13:
 					deleteCoolText();
@@ -732,7 +751,7 @@ class TitleState extends MusicBeatState
 						sound = FlxG.sound.play(Paths.sound('JingleBB'));
 
 					default: //Go back to normal ugly ass boring GF
-						remove(ngSpr);
+						remove(fnfSpr);
 						remove(credGroup);
 						FlxG.camera.flash(FlxColor.WHITE, 2);
 						skippedIntro = true;
@@ -748,7 +767,7 @@ class TitleState extends MusicBeatState
 				{
 					new FlxTimer().start(3.2, function(tmr:FlxTimer)
 					{
-						remove(ngSpr);
+						remove(fnfSpr);
 						remove(credGroup);
 						FlxG.camera.flash(FlxColor.WHITE, 0.6);
 						transitioning = false;
@@ -756,7 +775,7 @@ class TitleState extends MusicBeatState
 				}
 				else
 				{
-					remove(ngSpr);
+					remove(fnfSpr);
 					remove(credGroup);
 					FlxG.camera.flash(FlxColor.WHITE, 3);
 					sound.onComplete = function() {
@@ -769,7 +788,7 @@ class TitleState extends MusicBeatState
 			}
 			else //Default! Edit this one!!
 			{
-				remove(ngSpr);
+				remove(fnfSpr);
 				remove(credGroup);
 				FlxG.camera.flash(FlxColor.WHITE, 4);
 

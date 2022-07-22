@@ -32,6 +32,7 @@ class ClientPrefs {
 	public static var hitsoundVolume:Float = 0;
 	public static var pauseMusic:String = 'Tea Time';
 	public static var checkForUpdates:Bool = true;
+	public static var checkForBeta:Bool = true;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 3.0,
 		'scrolltype' => 'constant', 
@@ -128,6 +129,7 @@ class ClientPrefs {
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.pauseMusic = pauseMusic;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
+		FlxG.save.data.checkForBeta = checkForBeta;
 	
 		FlxG.save.flush();
 
@@ -259,6 +261,11 @@ class ClientPrefs {
 		{
 			checkForUpdates = FlxG.save.data.checkForUpdates;
 		}
+		if (FlxG.save.data.checkForBeta != null)
+			{
+				checkForBeta = FlxG.save.data.checkForBeta;
+			}
+			
 
 		var save:FlxSave = new FlxSave();
 		save.bind('controls_v2', 'ninjamuffin99');

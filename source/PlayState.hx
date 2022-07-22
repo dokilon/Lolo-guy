@@ -757,14 +757,14 @@ class PlayState extends MusicBeatState
 		        add(lolob);
 								
 
-		        var loloft:FlxSprite = new FlxSprite( -500, 750); //x, y - left + right y: +up -down
+		        var loloft:FlxSprite = new FlxSprite( -600, 700); //x, y + left - right y: +up -down
 				loloft.frames = Paths.getSparrowAtlas('bobfront');
-                loloft.animation.addByPrefix('bob', 'bg', 16 ,true);
-				loloft.animation.play('bob');
-		        lolob.setGraphicSize(Std.int(lolob.width * 0.6));
+                loloft.animation.addByPrefix('bob', 'bg', 16, true);
+				lolob.setGraphicSize(Std.int(lolob.width * 0.6));
 				lolob.updateHitbox();
+				loloft.animation.play('bob');
 				add(loloft);
-				loloft.antialiasing = false;
+
 				
 			case 'tank': //Week 7 - Ugh, Guns, Stress
 				var sky:BGSprite = new BGSprite('tankSky', -400, -400, 0, 0);
