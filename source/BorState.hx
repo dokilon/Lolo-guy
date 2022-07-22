@@ -25,8 +25,8 @@ class BorState extends MusicBeatState
 
 		warnText = new FlxText(0, 0, FlxG.width,
 			"Sup bro, looks like you're running a   \n
-			beta of lolo (" + MainMenuState.bor + "),\n
-			to download the release press enter \n
+			beta of lolo \n
+			to download the release "+ TitleState.updateVersion +" press enter \n
 			Press ESCAPE to proceed anyway.\n
 			\n
 			Thank you for play!",

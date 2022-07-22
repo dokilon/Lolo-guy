@@ -1,81 +1,41 @@
 {
-
-	"songs": [
-
-		[
-
-			"the enie",
-
-			"mr-enie",
-
-			[
-
-				255,
-
-				133,
-
-				15
-
-			]
-
-		],
-
-		[
-
-			"My reaction",
-
-			"mr-enie",
-
-			[
-
-				255,
-
-				133,
-
-				15
-
-			]
-
-		]
-
-	],
-
-	"hiddenUntilUnlocked": false,
-
-	"hideFreeplay": false,
-
-	"weekBackground": "",
-
-	"difficulties": "",
-
-	"weekCharacters": [
-
-		"",
-
-		"",
-
-		""
-
-	],
-
 	"storyName": "6",
-
-	"weekName": "",
-
-	"freeplayColor": [
-
-		146,
-
-		113,
-
-		253
-
-	],
-
-	"hideStoryMode": true,
-
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
 	"weekBefore": "5weektv",
-
-	"startUnlocked": false
-
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"the enie",
+			"mr-enie",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"My reaction",
+			"mr-enie",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": ""
 }

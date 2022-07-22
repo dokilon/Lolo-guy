@@ -11,6 +11,8 @@ future/*
 future
 art/RPC icons/*
 art/RPC icons
+scripts_bases/*
+scripts_bases
 
 ### VS Code
 export/*
