@@ -672,21 +672,17 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					#if PSYCH_WATERMARKS
+
 					createCoolText(['lolo by'], 15); //lolo title
-					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-					#end
+
 				// credTextShit.visible = true;
 				case 4:
-					#if PSYCH_WATERMARKS
+
 					addMoreText('Doto', 15);
 					addMoreText('doki', 15);
 					addMoreText('Jeriz', 15);
 					addMoreText('tonyrodo', 15);
-					#else
-					addMoreText('present');
-					#end
+					
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 5:
@@ -700,6 +696,7 @@ class TitleState extends MusicBeatState
 
 				case 8:
 					fnfSpr.visible = true;
+					fnfSpr.setGraphicSize(Std.int(fnfSpr.width * 2));
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
 					deleteCoolText();
@@ -719,13 +716,16 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('fnf');
+					addMoreText('friday');
+					addMoreText('night');
 				// credTextShit.visible = true;
 				case 15:
+					addMoreText('funkin');
 					addMoreText('vs');
 				// credTextShit.text += '\nNight';
 				case 16:
 					addMoreText('lolo'); // credTextShit.text += '\nFunkin';
+					addMoreText('remaster');
 
 				case 17:
 					skipIntro();

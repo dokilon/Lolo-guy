@@ -121,7 +121,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.x = 100;
+			menuItem.x = 50;
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -213,6 +213,8 @@ class MainMenuState extends MusicBeatState
 
 
 
+
+
 				if (optionShit[curSelected] == 'donate')
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
@@ -224,7 +226,9 @@ class MainMenuState extends MusicBeatState
 
 					if(ClientPrefs.flashing) FlxFlicker.flicker(magenta, 1.1, 0.15, false);
 
-					menuItems.forEach(function(spr:FlxSprite)
+
+					
+				    menuItems.forEach(function(spr:FlxSprite)
 					{
 						if (curSelected != spr.ID)
 						{
@@ -275,6 +279,9 @@ class MainMenuState extends MusicBeatState
 
 		super.update(elapsed);
 
+
+
+
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			//spr.screenCenter(X);
@@ -286,6 +293,23 @@ class MainMenuState extends MusicBeatState
 	function changeItem(huh:Int = 0)
 	{
 		curSelected += huh;
+
+
+		for(ap in menuItems){
+			if(ap.ID == curSelected){
+			ap.x= 300;
+			ap.alpha = 1;
+						}
+	    else if (ap.ID == curSelected == false){
+		ap.x = 50;	
+		ap.alpha = 0.5;		
+			}
+		}
+
+
+
+	
+
 
 		if (curSelected >= menuItems.length)
 			curSelected = 0;
