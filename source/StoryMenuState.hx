@@ -24,6 +24,12 @@ using StringTools;
 class StoryMenuState extends MusicBeatState
 {
 	public static var weekCompleted:Map<String, Bool> = new Map<String, Bool>();
+	
+	public static var bgPaths:Array<String> = 
+	[
+		'MenuBg',
+
+	];
 
 	var scoreText:FlxText;
 
@@ -73,7 +79,13 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
-		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(randomizeBG());
+		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		bg.updateHitbox();
+		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
+		bg.color = 0xFFfd719b;
+		add(bg);
 		bgSprite = new FlxSprite(0, 56);
 		bgSprite.antialiasing = ClientPrefs.globalAntialiasing;
 
@@ -165,7 +177,7 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.antialiasing = ClientPrefs.globalAntialiasing;
 		difficultySelectors.add(rightArrow);
 
-		add(bgYellow);
+		add(bg);
 		add(bgSprite);
 		add(grpWeekCharacters);
 
@@ -480,4 +492,9 @@ class StoryMenuState extends MusicBeatState
 		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);
 		#end
 	}
+	public static function randomizeBG():flixel.system.FlxAssets.FlxGraphicAsset
+		{
+			var chance:Int = FlxG.random.int(0, bgPaths.length - 1);
+			return Paths.image(bgPaths[chance]);
+		}
 }

@@ -16,6 +16,8 @@ scripts_bases
 
 ### VS Code
 export/*
+.vscode/*
+.vscode
 export
 builds/*
 builds
