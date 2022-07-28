@@ -25,8 +25,8 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var loloversion:String = '0.3 0.2(github previw)'; //This is also used for Discord RPC
-	public static var bor:String = 'beta';
+	public static var loloversion:String = '0.3 0.2(doto previw)'; //This is also used for Discord RPC
+	public static var bor:String = 'beta'; //is dis a beta
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
