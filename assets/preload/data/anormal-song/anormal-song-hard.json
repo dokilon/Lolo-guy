@@ -1,5 +1,342 @@
 {
 	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set Cam Zoom",
+						"2",
+						"6"
+					]
+				]
+			],
+			[
+				6200,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						""
+					]
+				]
+			],
+			[
+				6400,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				6700,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"0.5"
+					]
+				]
+			],
+			[
+				7200,
+				[
+					[
+						"Set Cam Zoom",
+						"0.650",
+						"1"
+					]
+				]
+			],
+			[
+				10000,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				12800,
+				[
+					[
+						"Set Cam Zoom",
+						"0.650",
+						"1"
+					]
+				]
+			],
+			[
+				13000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						"0.2"
+					]
+				]
+			],
+			[
+				13200,
+				[
+					[
+						"Set Cam Zoom",
+						"0.650",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"",
+						"0.03"
+					]
+				]
+			],
+			[
+				13400,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						"0.2"
+					]
+				]
+			],
+			[
+				13700,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						"0.03"
+					],
+					[
+						"Set Cam Zoom",
+						"0.650",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						"0.2"
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Change Character",
+						"bflolo",
+						"dadplay"
+					]
+				]
+			],
+			[
+				25600,
+				[
+					[
+						"Change Character",
+						"dadplay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				30400,
+				[
+					[
+						"Change Character",
+						"bflolo",
+						"splay"
+					],
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.03"
+					]
+				]
+			],
+			[
+				30600,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				30800,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				31000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				31200,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				31400,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				31600,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.1"
+					]
+				]
+			],
+			[
+				31800,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				31900,
+				[
+					[
+						"Change Character",
+						"splay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Play Animation",
+						"negro",
+						"lologuy"
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"Screen Shake",
+						"1, 0.3",
+						"0.03"
+					],
+					[
+						"Change Character",
+						"bflolo",
+						"splay"
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				54400,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					],
+					[
+						"Change Character",
+						"splay",
+						"bflolo"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				59200,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				60800,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Screen Shake",
+						"1, 0.03",
+						"0.03"
+					]
+				]
+			]
+		],
 		"player1": "bflolo",
 		"player2": "lologuy",
 		"notes": [
@@ -4984,158 +5321,6 @@
 			}
 		],
 		"gfVersion": "GfLoloGuy",
-		"events": [
-			[
-				0,
-				[
-					[
-						"Set Cam Zoom",
-						"2",
-						"6"
-					]
-				]
-			],
-			[
-				6200,
-				[
-					[
-						"Set Cam Zoom",
-						"0.6",
-						""
-					]
-				]
-			],
-			[
-				24000,
-				[
-					[
-						"Change Character",
-						"bflolo",
-						"dadplay"
-					]
-				]
-			],
-			[
-				25600,
-				[
-					[
-						"Change Character",
-						"dadplay",
-						"bflolo"
-					]
-				]
-			],
-			[
-				30400,
-				[
-					[
-						"Change Character",
-						"bflolo",
-						"splay"
-					]
-				]
-			],
-			[
-				31900,
-				[
-					[
-						"Change Character",
-						"splay",
-						"bflolo"
-					]
-				]
-			],
-			[
-				38400,
-				[
-					[
-						"Play Animation",
-						"negro",
-						"lologuy"
-					]
-				]
-			],
-			[
-				51200,
-				[
-					[
-						"Screen Shake",
-						"1, 0.3",
-						"0.03"
-					],
-					[
-						"Change Character",
-						"bflolo",
-						"splay"
-					]
-				]
-			],
-			[
-				52800,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					]
-				]
-			],
-			[
-				54400,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					],
-					[
-						"Change Character",
-						"splay",
-						"bflolo"
-					]
-				]
-			],
-			[
-				57600,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					]
-				]
-			],
-			[
-				59200,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					]
-				]
-			],
-			[
-				60800,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					]
-				]
-			],
-			[
-				62400,
-				[
-					[
-						"Screen Shake",
-						"1, 0.03",
-						"0.03"
-					]
-				]
-			]
-		],
 		"player3": null,
 		"song": "anormal song",
 		"validScore": true,

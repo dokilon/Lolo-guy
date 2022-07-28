@@ -1,0 +1,9 @@
+events info 
+
+los eventos se clasifican asi:
+mismos:
+no varia el evento en la dificultad 
+diferentes:
+los eventos son diferentes a cada dificultad
+sin terminar:
+se acaba de terminar de chartear tiene un events por lo general
