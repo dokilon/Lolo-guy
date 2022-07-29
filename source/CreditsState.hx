@@ -81,15 +81,17 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['THE LOLO TEAM'], // lolo credit
+			['THE LOLO TEAM'], // lolo creditos
             ['Mr. D0to',            'icon',             'Creator Artist And Programmer',                                'https://twitter.com/MrD0to',           'f7e9e9'],
 			['doki',                'xd',               'Programmer',                                                   'https://twitter.com/dokislon',         '0066ff'],
 			['TonyRodo',            'elpepe',           'Music Man',                                                    'https://twitter.com/DeRetrasado',      'f7e9e9'],
+			['Don Comedy',          'com',              'Artist',                                                       'https://twitter.com/DonComedy14',      '0000ff'],
+			['el jack',             'wtf',              'Artist',                                                       'https://twitter.com/JackNuv',          'cc0000'],
 			['Jeriz',               'bolas',            'Charter',                                                      'https://twitter.com/jeriz1991',        'f7e9e9'],
 			['Gixxie',              'dou',              'Icons Artist',                                                 'https://twitter.com/TheDrea93936186',  'f7e9e9'],
-			['ImNotAPepsi',         'test',             'beta tester',                                                  'https://twitter.com/ImNotAPepsi',      'ff0000'],
+			['ImNotAPepsi',         'test',             'Beta Tester',                                                  'https://twitter.com/ImNotAPepsi',      'ff0000'],	
 			[''],
-			['some things that \ndont belong to me'],
+			['Some Things That \nDont Belong To Me'],//no me partenese 
 			['KadeDev',				'kade',				'circule notes (originals of kade engine)',			'https://twitter.com/kade0912',			'64A250'],
 			['tabi team',           'tabi',             'camera zoom script',                               'https://gamebanana.com/mods/375062', '4f4f4f'],
 			[''],

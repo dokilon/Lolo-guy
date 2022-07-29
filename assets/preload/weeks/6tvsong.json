@@ -1,9 +1,9 @@
 {
-	"storyName": "6",
+	"storyName": "",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "5weektv",
+	"weekBefore": "5weekTV",
 	"freeplayColor": [
 		146,
 		113,
@@ -36,6 +36,6 @@
 		"",
 		""
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": ""
+	"hiddenUntilUnlocked": true,
+	"weekName": "6"
 }
