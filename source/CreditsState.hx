@@ -95,6 +95,7 @@ class CreditsState extends MusicBeatState
 			['Dont Belong To Me'],//no me partenese 
 			['KadeDev',				'kade',				'circule notes (originals of kade engine)',			'https://twitter.com/kade0912',			'64A250'],
 			['tabi team',           'tabi',             'camera zoom script',                               'https://gamebanana.com/mods/375062', '4f4f4f'],
+			['ThermiteFe8',         'win',              'win icons art',                                    'https://github.com/ThermiteFe8',     '38f72f'],
 			[''],			
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
