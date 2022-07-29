@@ -8,4 +8,6 @@ mod creado por:
 - [TonyRodo](https://twitter.com/DeRetrasado), musico
 - [Jeriz](https://twitter.com/jeriz1991), Charter
 - [Gixxie](https://twitter.com/TheDrea93936186),Artista de iconos
+- [el jack](https://twitter.com/jeriz1991), artista
+- [don comedy](https://twitter.com/DonComedy14), artista
 - [server de discord?](https://discord.gg/3hqDdCAbSJ)
