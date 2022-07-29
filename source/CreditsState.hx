@@ -91,10 +91,10 @@ class CreditsState extends MusicBeatState
 			['Gixxie',              'dou',              'Icons Artist',                                                 'https://twitter.com/TheDrea93936186',  'f7e9e9'],
 			['ImNotAPepsi',         'test',             'Beta Tester',                                                  'https://twitter.com/ImNotAPepsi',      'ff0000'],	
 			[''],
-			['Some Things That \nDont Belong To Me'],//no me partenese 
+			['Some Things That'],
+			['Dont Belong To Me'],//no me partenese 
 			['KadeDev',				'kade',				'circule notes (originals of kade engine)',			'https://twitter.com/kade0912',			'64A250'],
 			['tabi team',           'tabi',             'camera zoom script',                               'https://gamebanana.com/mods/375062', '4f4f4f'],
-			[''],
 			[''],			
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
