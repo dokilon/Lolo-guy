@@ -80,9 +80,9 @@ class TitleState extends MusicBeatState
 	var easterEggKeysBuffer:String = '';
 
 
-	var mustUpdate:Bool = false;
+	public static var mustUpdate:Bool = false;
 	
-	var mustBeta:Bool = false;
+	public static var mustBeta:Bool = false;
 
 	var titleJSON:TitleData;
 
@@ -138,7 +138,7 @@ class TitleState extends MusicBeatState
 
 		if(ClientPrefs.checkForUpdates && !closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/dokilon/Lolo-guy/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/dokilon/Lolo-guy/main/gitBetaVersion.txt"); //cambia esto pa hacer release por gitVersion.txt
 
 			http.onData = function (data:String)
 			{
@@ -542,6 +542,8 @@ class TitleState extends MusicBeatState
 					} else {
 						MusicBeatState.switchState(new MainMenuState());
 					}
+
+
 					closedState = true;
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);

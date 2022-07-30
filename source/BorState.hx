@@ -11,6 +11,7 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 
+
 class BorState extends MusicBeatState
 {
 	public static var leftState:Bool = false;
@@ -24,8 +25,10 @@ class BorState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Sup bro, looks like you're running a   \n
+			"Sup bro, looks like you're running a \n
 			beta of lolo \n
+            this beta is stable, but being a beta \n 
+			it may have bugs. \n
 			to download the release "+ TitleState.updateVersion +" press enter \n
 			Press ESCAPE to proceed anyway.\n
 			\n
@@ -52,7 +55,13 @@ class BorState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				FlxTween.tween(warnText, {alpha: 0}, 1, {
 					onComplete: function (twn:FlxTween) {
-						MusicBeatState.switchState(new MainMenuState());
+						
+						if (TitleState.mustUpdate) {
+							MusicBeatState.switchState(new OutdatedState());
+						} else {
+							MusicBeatState.switchState(new MainMenuState());
+						}
+						
 					}
 				});
 			}
